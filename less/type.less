@@ -2,6 +2,31 @@
 // Typography
 // --------------------------------------------------
 
+.condiment {
+  font-family: 'Condiment', cursive;
+}
+
+.ssp-light {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+.ssp-normal {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+.ssp-italic {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.ssp-semibold {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+.ssp-bold {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
 
 // Headings
 // -------------------------
@@ -57,6 +82,7 @@ h6, .h6 { font-size: @font-size-h6; }
 
 p {
   margin: 0 0 (@line-height-computed / 2);
+  .ssp-normal;
 }
 
 .lead {
@@ -300,3 +326,6 @@ address {
   font-style: normal;
   line-height: @line-height-base;
 }
+
+
+
